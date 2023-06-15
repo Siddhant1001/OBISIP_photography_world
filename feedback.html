@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback </title>
+    <link rel="stylesheet" href="feedback.css">
+  
+</head>
+
+<body style="background-color: beige ;">
+        
+    <script>
+        function validateForm() {
+          let x = document.forms["myForm"]["name"].value;
+          if (x == "") {
+            alert("Name must be filled out");
+            return false;
+          }
+        }
+       
+        </script>
+    
+</head>
+<body>
+    
+    <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+    <h1><i>Feedback Form </i> </h1>
+    <p>First Name: <input type="text" name="firstname" required></p>
+    <p>Last  Name: <input type="text" name="lastname" required></p>
+    <!-- <p>Email: <input type="email" email="email" required></p> -->
+    <p>Mobile No: <input type="number" mobile no="mobile no" required></p>
+    <!-- <p>Salary: <input type="number" salary="salary" required></p> -->
+    <p>feedback: <textarea name="address" id="address" cols="45" rows="5"required></textarea></p>
+   
+    <a href="submit.html" class="btn">Submit</a>
+    <!-- <input type="submit" value="Submit"></P> -->
+    <!-- <a href="submit.html"><button type="submit" class="btn">Submit</button></a> -->
+
+      </form>
+</body>
+
+</html

@@ -1,0 +1,49 @@
+.stock{
+    width: 80%;
+    padding: 50px 0 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    color: #535355;
+    font-size: 30px;
+    margin: 60px 0;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 1700px;
+}
+.column{
+    width: 31.33%;
+    padding-bottom: 15px;
+
+}
+.column img{
+    width: 100%;
+    cursor: pointer;
+    transform: 0.5s;
+}
+.column img:hover{
+    transform: scale(1.05);
+}
+.explore-btn{
+    text-decoration: none;
+    display: block;
+    width: 50%;
+    max-width: 350px;
+    background: #7b91ce;
+    color: #fff;
+    text-align: center;
+    padding: 14px 0;
+    border-radius: 30px;
+    margin: 60px auto;
+    font-size: 18px;
+  transition: transform 0.5s;
+
+}
+.explore-btn:hover{
+    transform: scale(0.9);
+}
